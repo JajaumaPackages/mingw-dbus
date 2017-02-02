@@ -2,7 +2,7 @@
 
 Name:           mingw-dbus
 Version:        1.8.16
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        MinGW Windows port of D-Bus
 
 License:        GPLv2+ or AFL
@@ -139,6 +139,9 @@ rm -r $RPM_BUILD_ROOT%{mingw64_sysconfdir}/rc.d/init.d/messagebus
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 1.8.16-4
+- Rebuild with GCC 5.4.0
+
 * Thu Feb 04 2016 Fedora Release Engineering <releng@fedoraproject.org> - 1.8.16-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_24_Mass_Rebuild
 
